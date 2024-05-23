@@ -1,0 +1,118 @@
+# Visual Studio intermediate files
+.vscode/
+.vs/
+*.code-workspace
+
+# Xcode intermediate files
+build/
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+
+# Unreal Engine specific files
+Binaries/
+DerivedDataCache/
+
+Saved/
+*.opensdf
+*.sdf
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# Mac specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Compiled dynamic libraries
+*.dll
+*.dylib
+*.exe
+*.lib
+*.app
+*.ipa
+*.pdb
+*.dll
+*.dylib
+*.so
+
+# Logs
+*.log
+
+# Build directories
+build/
+Build/
+
+# Unreal Engine config files (you might want to include them if you want to track configuration changes)
+# Config/
+
+# Ignore specific plugins
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# User-specific files
+*.userosscache
+*.userprefs
+
+# Compiled source files
+*.pyc
+*.pyo
+*.pyd
+
+# Packages
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Editor backup files
+*.pidb
+*.booproj
+*.pidb.meta
+
+# Auto-generated files by Unreal Engine
+Source/*/*.generated.h
+Source/*/*.generated.cpp
+
+# Ignore everything in Intermediate
+Intermediate/Build
+!Build/BuildRulesProjects/Athanor_UIModuleRules/Athanor_UIModuleRules.csproj 
+Intermediate/Config
+Intermediate/DatasmithContentTemp
+Intermediate/PipInstall
+Intermediate/ReimportCache
+Intermediate/ShaderAutogen
+Intermediate/CachedAssetREgistry_0.bin
+Intermediate/TargetInfo.json
+
+Binaries
+Intermediate/ProjectFiles/.vcxproj.filters
+Intermediate/AutomationTool.csproj.References
+*csproj.References
+*vcxproj.filters
